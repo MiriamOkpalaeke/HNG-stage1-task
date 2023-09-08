@@ -7,21 +7,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <h1>My Profile</h1>
-      <h2 data-testid="slackUserName">Miriam Okpalaeke</h2>
+    <div class="container">
+      <div>
+        <h1>My Profile</h1>
+        <h2 data-testid="slackUserName">Miriam Okpalaeke</h2>
+      </div>
+      <div class="profile-details">
+        <img
+          class="image"
+          src="IMG_9743d (2).jpg"
+          alt="Miriam Okpalaeke"
+          data-testid="slackDisplayImage"
+        />
+        <div id="current-day" data-testid="currentDayOfTheWeek"></div>
+        <div id="current-time" data-testid="currentUTCTime"></div>
+        <div id="track" data-testid="myTrack"><p>Frontend</p></div>
+        <div>
+          <a
+            class="link"
+            href="https://github.com/MiriamOkpalaeke/HNG-stage1-task"
+            data-testid="githubURL"
+            target="_blank"
+            >Github Source Code</a
+          >
+        </div>
+      </div>
     </div>
-    <div>
-      <img
-        class="image"
-        src="IMG_9743d (2).jpg"
-        alt="Miriam Okpalaeke"
-        data-testid="slackDisplayImage"
-      />
-    </div>
-    <div class="current-day" data-testid="currentDayOfTheWeek"></div>
-    <div class="current-time" data-testid="currentUTCTime"></div>
-    <div data-testid="myTrack"><p>Frontend</p></div>
-    <div><a href="" data-testid="“githubURL”"></a></div>
+
+    <script src="index.js"></script>
   </body>
 </html>

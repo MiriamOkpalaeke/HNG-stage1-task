@@ -7,6 +7,52 @@ img {
   display: block;
   width: 100%;
 }
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 20px;
+  box-shadow: 0 0 10px 3px rgba(27, 101, 101, 0.354);
+}
+.container:hover {
+  box-shadow: 0 0 10px 3px rgba(27, 101, 101, 0.546);
+}
 .image {
   width: 200px;
+  border-radius: 5px;
+}
+h1,
+h2 {
+  text-align: center;
+  line-height: 1.5;
+  padding: 5px;
+}
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.link {
+  background-color: rgb(27, 101, 10);
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.link:hover {
+  background-color: rgb(4, 13, 2);
+}
+.link:active {
+  background-color: grey;
+}
+#current-day,
+#current-time,
+#track {
+  font-weight: 700;
 }
